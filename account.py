@@ -7,5 +7,4 @@ class account:
 
 if __name__ == '__main__':
     accVerify = account()
-    print('Acoount pyhton file')
     print('The password length is fair' + str(accVerify.check_password_length('offtoschool')))
